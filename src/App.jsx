@@ -13,6 +13,7 @@ import DashboardHome from './components/DashboardHome'
 import CourseList from './components/CourseList'
 import QuestionList from './components/QuestionList'
 import Profile from './components/Profile'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -36,6 +37,7 @@ function App() {
             <Route path='/dashboard/profile' element={<Profile/>}/>
           </Routes>
         </main> 
+        <Footer/>
       </div>
     </NextUIProvider> 
    
