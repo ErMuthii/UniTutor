@@ -12,7 +12,7 @@ import {
   } from '@nextui-org/react';
   import React, { useState } from 'react';
   import { useNavigate } from 'react-router-dom';
-//   import logo from '../assets/logo.png';
+  import logo from '../assets/logo.png';
   
   const Navigation = () => {
     const navigate = useNavigate();
@@ -34,11 +34,11 @@ import {
             className='sm:hidden'
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           />
-          {/* <NavbarBrand>
+          <NavbarBrand>
             <Link to= '/'>
-            <img src={logo} alt='logo' className='h-[45px] w-[200px]' />
+            <img src={logo} alt='logo' className='h-[55px] w-[55px]' />
             </Link>
-          </NavbarBrand> */}
+          </NavbarBrand>
         </NavbarContent>
   
         <NavbarContent className='hidden sm:flex gap-4' justify='center'>

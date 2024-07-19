@@ -28,9 +28,6 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/dashboard/settings" className="hover:underline">
-              Settings
-            </Link>
           </li>
         </ul>
       </div>
