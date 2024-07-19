@@ -9,7 +9,7 @@ const Courses = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   const handleCourseClick = (id) => {
-    navigate(`/courses/${id}`);
+    navigate(`/login`);
   };
 
   const filteredCourses = selectedCategory === 'All'
@@ -26,8 +26,8 @@ const Courses = () => {
 
   return (
     <div className='p-4'>
-      <h1 className='text-2xl font-bold'>Our Courses</h1>
-      <div className='text-3xl text-blue-500 font-bold mt-4'>{studyMessage}</div>
+      <h1 className='text-3xl text-black font-bold'>Our Courses</h1>
+      <div className='text-2xl text-blue-500 font-bold mt-4'>{studyMessage}</div>
       {guidanceMessage && <div className='text-lg mt-2'>{guidanceMessage}</div>}
       <div className='mt-4'>
         <select
